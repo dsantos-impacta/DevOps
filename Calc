@@ -1,15 +1,3 @@
-# Uma calculadora para obter o valor de expressões aritméticas inteiras com parênteses.
-# A interface gráfica é usada para montar a expressão a ser calculada.
-# A tecla "=" chama o comando eval do Python para calcular a expressão.
-# No caso de uma operação que resultar em erro, a exceção produz o resultado "erro"
-# Adaptado do exemplo disponível em http://www.ufpel.tche.br/~campani/laminas.pdf
-# Atenção: em Python, constantes precedidas por 0 são consideradas octais.
-# Por esse motivo, 08, 008, 09, 085, etc são números inválidos.
-# A calculadora deveria remover os zeros à esquerda de todos os números.
-# Este programa faz isso parcialmente, apenas com o primeiro número.
-# Cuidado deve ser tomado ao entrar com os outros valores.
-
-
 from Tkinter import *
 
 # Criando os widgets:
